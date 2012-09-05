@@ -1,14 +1,26 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "express-demo",
+  "version": "0.0.1-1",
+  "subdomain": "express.mistery",
+  "author": "Alen Siljak <alen.siljak@gmail.com>",
+  "description": "A demo site using express",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "app.js"
   },
   "dependencies": {
     "express": "3.0.0rc4",
     "jade": "*",
     "markdown": "*",
     "ejs": "*"
+  },
+  "contributors": [
+    {
+      "name": "Alen Siljak",
+      "email": "alen.siljak@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8"
   }
 }

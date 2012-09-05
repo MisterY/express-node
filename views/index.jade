@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Hot-updating of content when source files change is on with 'supervisor'.
+  ol Links
+  :markdown
+    Here is a **page** using [ejs](/ejs) templating engine.
+    This text has been created using markdown.
+  p 
+    | A page using 
+    a(href="/ejs") ejs 
+    | templating engine.
+
+  :markdown
+    --
+    The preference seems to go to Jade.
